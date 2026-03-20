@@ -1,0 +1,6 @@
+print("Speed Calculator v1.0.0")
+print("What is the distance travelled (in metres)?")
+distance = int(input())
+print("What is the time taken (in seconds)?")
+time = int(input())
+print("The speed of the object is " + str(distance / time) + " metres per second.")

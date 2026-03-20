@@ -1,0 +1,8 @@
+print("Rectangular Volume Calculator v1.0.0")
+print("What is the length of the rectangle?")
+length = int(input())
+print("What is the breadth of the rectangle?")
+breadth = int(input())
+print("What is the height of the rectangle?")
+height = int(input())
+print("The volume of the rectangle is " + str(length * breadth * height))
