@@ -22,4 +22,13 @@ print("Percentage Calculator v1.0.0")
 original_price = int(input("What is the original price of the item? (in pounds) "))
 discount = original_price * 0.20
 final_price = original_price - discount
-print("The final price of the item after the discount is " + str(final_price) + " pounds.")
+rounded_final_price = round(final_price, 2)
+print("The final price of the item after the discount is ", rounded_final_price, " pounds.")
+
+# Weight Calculator v1.0.0
+print("Weight Calculator v1.0.0")
+mass = int(input("What is the mass of the object? (in kilograms) "))
+earth_gravity = 9.81
+weight = mass * earth_gravity
+rounded_weight = round(weight, 2)
+print("The weight of the object on Earth is ", rounded_weight," Newtons.")
